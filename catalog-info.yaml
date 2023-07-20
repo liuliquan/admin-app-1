@@ -5,8 +5,9 @@ metadata:
   tags:
     - javascript
   annotations:
-    github.com/project-slug: tc-backstage-test/admin-app
+    backstage.io/source-location: url:https://github.com/topcoder-platform/admin-app
+    github.com/project-slug: topcoder-platform/admin-app
 spec:
-  type: service
+  type: website
   owner: backstage-dev
   lifecycle: production

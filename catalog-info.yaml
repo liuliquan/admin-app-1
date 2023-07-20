@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: admin-app
+  tags:
+    - javascript
+  annotations:
+    github.com/project-slug: tc-backstage-test/admin-app
+spec:
+  type: service
+  owner: backstage-dev
+  lifecycle: production
